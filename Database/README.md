@@ -5,5 +5,6 @@ Ejecuta los scripts en este orden, desde SQL Server Management Studio o una herr
 1. `BD_Estudiantes.sql` — crea la base de datos y sus objetos iniciales.
 2. `sp_Estudiante_CRUD.sql` — crea el procedimiento almacenado CRUD de estudiantes.
 3. `sp_Calificaciones_CRUD.sql` — crea el procedimiento almacenado CRUD de calificaciones.
+4. `04_TestData.sql` — carga los datos de prueba. Ejecútalo después de crear las tablas y los procedimientos almacenados.
 
 Conéctate al servidor de SQL Server antes de ejecutar los scripts. Ejecuta cada archivo completo y espera a que termine antes de iniciar el siguiente.
